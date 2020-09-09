@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CollectionRecap/CollectionRecap.iml" filepath="$PROJECT_DIR$/CollectionRecap/CollectionRecap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homework1/Homework1.iml" filepath="$PROJECT_DIR$/Homework1/Homework1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SchoolWorkflow.iml" filepath="$PROJECT_DIR$/.idea/SchoolWorkflow.iml" />
     </modules>

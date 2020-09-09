@@ -8,7 +8,7 @@ public class EasyList<T> extends ArrayList {
             return true;
         }
         else {
-        return false;
+            return false;
         }
     }
 
