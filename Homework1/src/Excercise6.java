@@ -4,17 +4,23 @@ import java.util.Map;
 
 public class Excercise6 {
     //skriv en metode der tager en liste a int's som parameter og returnere antal af unikke karaktere i listen
+ int uniqueNumber = 0;
 
 
-    int[] arr = {1,2,3,4,5,6,7,8,6,5,3,2,1,3,4,5,2,234,4,2,34,2};
-    Map<Integer, Integer> sortMap = new HashMap<Integer, Integer >();
-    public void countUnique(int[] arr){
+    public void countUnique(int[] arr, Map<Integer, Integer> sortMap){
         for (int i = 0; i < arr.length; i++) {
             sortMap.put(arr[i], i);
         }
+        System.out.println(sortMap.keySet());
     }
 
+
     public static void main(String[] args) {
-        System.out.println(sortMap.keySet());
+        int[] arr = {1,2,3,1,2,2,1,5,6,7,3,2,3,5,3,2};
+        Map<Integer, Integer> sortMap = new HashMap<Integer, Integer >();
+        Excercise6 excercise6 = new Excercise6();
+
+        excercise6.countUnique(arr,sortMap);
+
     }
 }
